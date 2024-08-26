@@ -16,7 +16,7 @@ export const meta: MetaFunction = () => {
 export default function Index() {
 	// console.log(
 	// 	encodeURI(
-	// 		"https://wa.me/5588997925279?text=Olá, Gostaria de agendar uma CONSULTA OFTALMOLÓGICA com a Dra. Margarida."
+	// 		"https://wa.me/+5588992003000?text=Olá, Gostaria de agendar uma CONSULTA OFTALMOLÓGICA com a Dra. Margarida."
 	// 	)
 	// );
 
@@ -37,7 +37,9 @@ export default function Index() {
 					<a
 						target="_blank"
 						rel="noreferrer"
-						href="https://wa.me/5585999262200?text=Ol%C3%A1,%20Gostaria%20de%20agendar%20uma%20CONSULTA%20DOMICILIAR%20com%20a%20Dra.%20Margarida"
+						href={encodeURI(
+							"https://wa.me/+5588992003000?text=Olá, gostaria de marcar uma CONSULTA DOMICILIAR com a Dra. Margarida."
+						)}
 						className="link bg-white focus:ring-amber-400 hover:bg-amber-200 text-amber-800"
 					>
 						Agendar Consulta Domiciliar
@@ -45,7 +47,19 @@ export default function Index() {
 					<a
 						target="_blank"
 						rel="noreferrer"
-						href="https://wa.me/5588997925279?text=Ol%C3%A1,%20Gostaria%20de%20agendar%20uma%20CONSULTA%20OFTALMOL%C3%93GICA%20com%20a%20Dra.%20Margarida"
+						href={encodeURI(
+							"https://wa.me/+5588992003000?text=Olá, gostaria de marcar uma CONSULTA OFTALMOLÓGICA EM SOBRAL com a Dra. Margarida."
+						)}
+						className="link bg-white focus:ring-amber-400 hover:bg-amber-200 text-amber-800"
+					>
+						Agendar Consulta em Sobral
+					</a>
+					<a
+						target="_blank"
+						rel="noreferrer"
+						href={encodeURI(
+							"https://wa.me/+5588992003000?text=Olá, gostaria de marcar uma CONSULTA OFTALMOLÓGICA EM MASSAPÊ com a Dra. Margarida."
+						)}
 						className="link bg-white focus:ring-amber-400 hover:bg-amber-200 text-amber-800"
 					>
 						Agendar Consulta em Massapê
@@ -53,7 +67,9 @@ export default function Index() {
 					<a
 						target="_blank"
 						rel="noreferrer"
-						href="https://wa.me/5588998551739?text=Ol%C3%A1,%20Gostaria%20de%20agendar%20uma%20CONSULTA%20OFTALMOL%C3%93GICA%20com%20a%20Dra.%20Margarida"
+						href={encodeURI(
+							"https://wa.me/+5588992003000?text=Olá, gostaria de marcar uma CONSULTA OFTALMOLÓGICA EM IPU com a Dra. Margarida."
+						)}
 						className="link bg-white focus:ring-amber-400 hover:bg-amber-200 text-amber-800"
 					>
 						Agendar Consulta no Ipu
