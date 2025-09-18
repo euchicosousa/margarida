@@ -23,7 +23,7 @@ export default function Index() {
         backgroundPosition: "top",
       }}
     >
-      <div className="text-center absolute w-full top-0 text-xs py-4 font-bold tracking-wider">
+      <div className="text-center absolute w-full top-0 text-[10px] py-4 font-bold tracking-wider">
         MÉDICA OFTALMOPEDIATRA EM SOBRAL, IPU E MASSAPÊ
       </div>
       <div className="w-full grid items-end bg-gradient-to-t from-[#fffc]">
@@ -35,7 +35,7 @@ export default function Index() {
               href={encodeURI(
                 "https://wa.me/+5588992003000?text=Olá, gostaria de marcar uma CONSULTA DOMICILIAR com a Dra. Margarida."
               )}
-              className="text-xl font-bold p-8 rounded-full w-60 animate-bounce z-10 leading-none self-end bg-white text-[#444] "
+              className="text-base font-bold p-4 rounded-full w-60 animate-bounce z-10 leading-none self-end bg-white text-[#444] mb-4"
             >
               Inscreva-se aqui para o{" "}
               <span className="text-[#399]">EXAME GRATUITO</span> contra o{" "}
