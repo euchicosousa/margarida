@@ -47,7 +47,7 @@ export default function Index() {
               href={encodeURI(
                 "https://wa.me/+5588992003000?text=Olá, gostaria de marcar uma CONSULTA DOMICILIAR com a Dra. Margarida."
               )}
-              className="link bg-[#399] hover:bg-[#366] text-white -rotate-6"
+              className="link bg-[#399] hover:bg-[#288] text-white -rotate-6"
             >
               Consulta <br /> Domiciliar
             </a>
@@ -57,7 +57,7 @@ export default function Index() {
               href={encodeURI(
                 "https://wa.me/+5588992003000?text=Olá, gostaria de marcar uma CONSULTA OFTALMOLÓGICA EM SOBRAL com a Dra. Margarida."
               )}
-              className="link self-end bg-[#fd3] hover:bg-[#366] text-[#444] -rotate-6"
+              className="link self-end bg-[#fd3] hover:bg-[#eb3] text-[#444] -rotate-6"
             >
               Consulta <br />
               em Sobral
@@ -68,7 +68,7 @@ export default function Index() {
               href={encodeURI(
                 "https://wa.me/+5588992003000?text=Olá, gostaria de marcar uma CONSULTA OFTALMOLÓGICA EM MASSAPÊ com a Dra. Margarida."
               )}
-              className="link bg-[#f79] hover:bg-[#366] text-white rotate-3"
+              className="link bg-[#f79] hover:bg-[#e68] text-white rotate-3"
             >
               Consulta <br />
               em Massapê
@@ -79,7 +79,7 @@ export default function Index() {
               href={encodeURI(
                 "https://wa.me/+5588992003000?text=Olá, gostaria de marcar uma CONSULTA OFTALMOLÓGICA EM IPU com a Dra. Margarida."
               )}
-              className="link self-end bg-[#3b4] hover:bg-[#366] text-white -rotate-12"
+              className="link self-end bg-[#3b4] hover:bg-[#2a3] text-white -rotate-12"
             >
               Consulta <br />
               no Ipu
