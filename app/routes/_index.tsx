@@ -14,12 +14,6 @@ export const meta: MetaFunction = () => {
 };
 
 export default function Index() {
-  // console.log(
-  // 	encodeURI(
-  // 		"https://wa.me/+5588992003000?text=Olá, Gostaria de agendar uma CONSULTA OFTALMOLÓGICA com a Dra. Margarida."
-  // 	)
-  // );
-
   return (
     <div
       className="min-h-dvh bg-amber-100 grid items-end relative sm:w-[600px] mx-auto"
@@ -30,7 +24,7 @@ export default function Index() {
       }}
     >
       <div className="text-center absolute w-full top-0 text-xs py-4 font-bold tracking-wider">
-        MÉDICA OFTALMOPEDIATRA EM SOBRAL
+        MÉDICA OFTALMOPEDIATRA EM SOBRAL, IPU E MASSAPÊ
       </div>
       <div className="w-full grid items-end bg-gradient-to-t from-[#fffc]">
         <div className="pb-8 text-center">
@@ -92,7 +86,7 @@ export default function Index() {
             </a>
           </div>
 
-          <img src="./logo.png" alt="" className="w-40 mx-auto " />
+          <img src="./logo.png" alt="" className="w-40 mx-auto mb-4" />
 
           <div className="text-xs">
             Siga o meu{" "}
