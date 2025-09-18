@@ -28,7 +28,7 @@ export default function Index() {
       </div>
       <div className="w-full grid items-end bg-gradient-to-t from-[#fffc]">
         <div className="pb-8 text-center">
-          <div className="flex my-12 flex-col gap-2 px-8">
+          <div className="flex my-12 flex-col gap-2 px-4">
             <a
               target="_blank"
               rel="noreferrer"
