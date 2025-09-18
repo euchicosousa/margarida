@@ -33,7 +33,7 @@ export default function Index() {
               target="_blank"
               rel="noreferrer"
               href={encodeURI(
-                "https://wa.me/+5588992003000?text=Olá, gostaria de marcar uma CONSULTA DOMICILIAR com a Dra. Margarida."
+                "https://docs.google.com/forms/d/e/1FAIpQLScsPEjTKH6jE3-NVH-82nF1i51w_hxRxQ769GB9uHycIjM0kg/viewform?usp=dialog"
               )}
               className="text-base font-bold p-4 rounded-full w-60 animate-bounce z-10 leading-none self-end bg-white text-[#444] mb-4"
             >
