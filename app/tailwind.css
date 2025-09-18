@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 .link {
-	@apply px-7 py-4 block rounded-2xl outline-none  ring-2 ring-offset-2 ring-transparent ring-offset-amber-100;
+  @apply p-8 w-52 font-bold text-xl leading-none block rounded-full outline-none ring-2 ring-transparent -mt-12;
 }
