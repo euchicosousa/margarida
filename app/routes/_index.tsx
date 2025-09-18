@@ -22,7 +22,7 @@ export default function Index() {
 
   return (
     <div
-      className="min-h-dvh bg-amber-100 grid items-end relative"
+      className="min-h-dvh bg-amber-100 grid items-end relative sm:w-[600px] mx-auto"
       style={{
         backgroundImage: "url('./bg.webp')",
         backgroundSize: "cover",
