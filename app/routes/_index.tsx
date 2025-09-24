@@ -29,7 +29,7 @@ export default function Index() {
       <div className="w-full grid items-end bg-gradient-to-t from-[#fffc]">
         <div className="pb-8 text-center">
           <div className="flex my-12 flex-col gap-2 px-4">
-            <a
+            {/* <a
               target="_blank"
               rel="noreferrer"
               href={encodeURI(
@@ -40,7 +40,7 @@ export default function Index() {
               Inscreva-se aqui para o{" "}
               <span className="text-[#399]">EXAME GRATUITO</span> contra o{" "}
               <span className="text-[#399]">Retinoblastoma</span>
-            </a>
+            </a> */}
             <a
               target="_blank"
               rel="noreferrer"
