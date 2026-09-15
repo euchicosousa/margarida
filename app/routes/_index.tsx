@@ -29,23 +29,21 @@ export default function Index() {
       <div className="w-full grid items-end bg-gradient-to-t from-[#fffc]">
         <div className="pb-8 text-center">
           <div className="flex my-12 flex-col gap-2 px-4">
-            {/* <a
+            <a
               target="_blank"
               rel="noreferrer"
-              href={encodeURI(
-                "https://docs.google.com/forms/d/e/1FAIpQLScsPEjTKH6jE3-NVH-82nF1i51w_hxRxQ769GB9uHycIjM0kg/viewform?usp=dialog"
-              )}
+              href={encodeURI("https://forms.gle/AvirV81ewqfegUVm9")}
               className="text-base font-bold p-4 rounded-full w-60 animate-bounce z-10 leading-none self-end bg-white text-[#444] mb-4"
             >
               Inscreva-se aqui para o{" "}
               <span className="text-[#399]">EXAME GRATUITO</span> contra o{" "}
               <span className="text-[#399]">Retinoblastoma</span>
-            </a> */}
+            </a>
             <a
               target="_blank"
               rel="noreferrer"
               href={encodeURI(
-                "https://wa.me/+5588992003000?text=Olá, gostaria de marcar uma CONSULTA DOMICILIAR com a Dra. Margarida."
+                "https://wa.me/+5588992003000?text=Olá, gostaria de marcar uma CONSULTA DOMICILIAR com a Dra. Margarida.",
               )}
               className="link bg-[#399] hover:bg-[#288] text-white -rotate-6"
             >
@@ -55,7 +53,7 @@ export default function Index() {
               target="_blank"
               rel="noreferrer"
               href={encodeURI(
-                "https://wa.me/+5588992003000?text=Olá, gostaria de marcar uma CONSULTA OFTALMOLÓGICA EM SOBRAL com a Dra. Margarida."
+                "https://wa.me/+5588992003000?text=Olá, gostaria de marcar uma CONSULTA OFTALMOLÓGICA EM SOBRAL com a Dra. Margarida.",
               )}
               className="link self-end bg-[#fd3] hover:bg-[#eb3] text-[#444] -rotate-6"
             >
@@ -66,7 +64,7 @@ export default function Index() {
               target="_blank"
               rel="noreferrer"
               href={encodeURI(
-                "https://wa.me/+5588992003000?text=Olá, gostaria de marcar uma CONSULTA OFTALMOLÓGICA EM MASSAPÊ com a Dra. Margarida."
+                "https://wa.me/+5588992003000?text=Olá, gostaria de marcar uma CONSULTA OFTALMOLÓGICA EM MASSAPÊ com a Dra. Margarida.",
               )}
               className="link bg-[#f79] hover:bg-[#e68] text-white rotate-3"
             >
@@ -77,7 +75,7 @@ export default function Index() {
               target="_blank"
               rel="noreferrer"
               href={encodeURI(
-                "https://wa.me/+5588992003000?text=Olá, gostaria de marcar uma CONSULTA OFTALMOLÓGICA EM IPU com a Dra. Margarida."
+                "https://wa.me/+5588992003000?text=Olá, gostaria de marcar uma CONSULTA OFTALMOLÓGICA EM IPU com a Dra. Margarida.",
               )}
               className="link self-end bg-[#3b4] hover:bg-[#2a3] text-white -rotate-12"
             >
