@@ -1,5 +1,5 @@
 {
-  "name": "brenda",
+  "name": "margarida",
   "private": true,
   "sideEffects": false,
   "type": "module",
@@ -11,33 +11,33 @@
     "typecheck": "tsc"
   },
   "dependencies": {
-    "@remix-run/node": "^2.7.2",
-    "@remix-run/react": "^2.7.2",
-    "@remix-run/serve": "^2.7.2",
-    "isbot": "^4.1.0",
+    "@remix-run/node": "^2.17.5",
+    "@remix-run/react": "^2.17.5",
+    "@remix-run/serve": "^2.17.5",
+    "isbot": "^4.4.0",
     "lucide-react": "^0.343.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
-    "@remix-run/dev": "^2.7.2",
-    "@resolid/remix-plugins": "*",
-    "@types/react": "^18.2.60",
-    "@types/react-dom": "^18.2.19",
-    "@typescript-eslint/eslint-plugin": "^7.1.0",
-    "@vanilla-extract/vite-plugin": "^4.0.4",
-    "eslint": "^8.57.0",
-    "eslint-import-resolver-typescript": "^3.6.1",
-    "eslint-plugin-import": "^2.29.1",
-    "eslint-plugin-jsx-a11y": "^6.8.0",
-    "eslint-plugin-react": "^7.33.2",
-    "eslint-plugin-react-hooks": "^4.6.0",
-    "tailwindcss": "^3.4.1",
-    "typescript": "^5.3.3",
-    "vite": "^5.1.4",
-    "vite-tsconfig-paths": "^4.3.1"
+    "@remix-run/dev": "^2.17.5",
+    "@resolid/remix-plugins": "1.0.2",
+    "@types/react": "^18.3.31",
+    "@types/react-dom": "^18.3.7",
+    "@typescript-eslint/eslint-plugin": "^7.18.0",
+    "@vanilla-extract/vite-plugin": "^4.0.20",
+    "eslint": "^8.57.1",
+    "eslint-import-resolver-typescript": "^3.10.1",
+    "eslint-plugin-import": "^2.32.0",
+    "eslint-plugin-jsx-a11y": "^6.10.2",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "tailwindcss": "^3.4.19",
+    "typescript": "^5.9.3",
+    "vite": "^5.4.21",
+    "vite-tsconfig-paths": "^4.3.2"
   },
   "engines": {
-    "node": "20.x"
+    "node": "24.x"
   }
 }
